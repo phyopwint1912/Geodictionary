@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0183C0"
+    tools:context=".Mainview" >
+
+    <EditText
+        android:id="@+id/txt_autocomplete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:hint="Please Enter Word to Search"
+        android:textColorHint="#FF1818"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+       android:background="@drawable/round_corner"
+       android:singleLine="true"
+        android:ems="10"
+        
+        
+         >
+
+        
+    </EditText>
+    <ListView
+        android:id="@+id/wordlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txt_autocomplete"
+        android:background="#FFFFFF" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_autocomplete"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="192dp"
+        android:text="No results"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="40dip"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>
