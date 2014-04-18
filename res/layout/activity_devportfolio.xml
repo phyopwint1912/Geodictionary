@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:text="About Developer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/textView1"
+       android:background="#0089BE"
+        android:layout_marginTop="15dp"
+        android:clickable="false"
+         />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/txtabtme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="19dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Win Htaik Aung (EYU)\nTarwa "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btngit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/giticon"
+       
+         />
+
+    <Button
+        android:id="@+id/btnfblike"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignTop="@+id/btngit"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/fbicon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btngit"
+        android:layout_below="@+id/btngit"
+        android:layout_marginTop="56dp"
+        android:text="Email me" />
+
+    <TextView
+        android:id="@+id/txtmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/txtabtme"
+        android:text="winhtaikaung28@hotmail.com" />
+
+    <ImageView
+        android:id="@+id/imgandroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="24dp"
+        android:src="@drawable/android" />
+    
+    </RelativeLayout>

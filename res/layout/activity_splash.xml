@@ -10,33 +10,53 @@
         android:id="@+id/Title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="40dp"
-        android:background="#FF0A27"
+        android:layout_alignBottom="@+id/txtName"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Geological Dictionary"
-        android:textColor="#FFFFFF"
-        
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:background="#FF0A27"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
 
-    <ImageView
+    <!-- ImageView
         android:id="@+id/imglogo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/txtName"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="14dp"
-        android:layout_marginLeft="14dp"
-        android:src="@drawable/logo" />
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="36dp"
+        android:src="@drawable/logo" /-->
 
     <TextView
-        android:id="@+id/txthang"
+        android:id="@+id/txtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Title"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="136dp"
-        android:text="EPIC Solutions"
+        android:text="\tCOLLINS\nDictionary"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/breakline"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/Title"
+        android:clickable="false" />
+
+    <TextView
+        android:id="@+id/txtDictionary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/breakline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="Geology"
+        android:textColor="#F11111"
+        android:textSize="50dp"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

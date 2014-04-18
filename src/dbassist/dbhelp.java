@@ -175,6 +175,7 @@ public class dbhelp extends SQLiteOpenHelper {
 	      //hp = new HashMap();
 	      SQLiteDatabase db = this.getReadableDatabase();
 	      Cursor res =  db.rawQuery( sql, null );
+	      
 	      int columcount=res.getColumnCount();
 	      int rowcount= 0;
 	      
@@ -187,11 +188,13 @@ public class dbhelp extends SQLiteOpenHelper {
 	    		  rowHashMap.put(cname, res.getString(i));
 	    		  
 	    	  }
+	    	  
 	    	  res.moveToNext();
 	    	  rows.add(rowHashMap);
 	    	  
 	    	  
 	      }
+	      db.close();
 	   return rows;
 	   }
 	   
@@ -201,6 +204,7 @@ public class dbhelp extends SQLiteOpenHelper {
 	      //hp = new HashMap();
 	      SQLiteDatabase db = this.getReadableDatabase();
 	      Cursor res =  db.rawQuery( sql, null );
+	      
 	      int columcount=res.getColumnCount();
 	      int rowcount= 0;
 	      
@@ -216,7 +220,7 @@ public class dbhelp extends SQLiteOpenHelper {
 	    	  
 	    	  rows.add(rowHashMap);
 	    	  
-	    	  
+	    	  db.close();  
 	      
 	   return rows;
 	   }

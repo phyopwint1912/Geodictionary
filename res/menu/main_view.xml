@@ -2,11 +2,15 @@
     	
     >
     
-
+<item
+        android:id="@+id/help"
+       
+        android:orderInCategory="1"
+        android:title="help"/>
     <item
        android:id="@+id/contact"
         android:icon="@drawable/phone"
-        android:orderInCategory="3"
+        android:orderInCategory="2"
         android:title="Contact"
         android:alphabeticShortcut="S"
         />
@@ -14,12 +18,8 @@
         android:id="@+id/about"
         android:icon="@drawable/people"
         
-        android:orderInCategory="2"
+        android:orderInCategory="3"
         android:title="About"/>
 	
-	<item
-        android:id="@+id/help"
-       
-        android:orderInCategory="1"
-        android:title="help"/>
+	
 </menu>

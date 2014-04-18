@@ -16,6 +16,7 @@ import android.content.Intent;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -39,12 +40,7 @@ public class MainView extends Activity {
 		
 		String sql="SELECT word,desc,type FROM A WHERE word = 'aa'";
 		final dbhelp db=new dbhelp(getApplicationContext());
-		
-				
-				db.MakeDB();
-		
-		
-		
+		db.MakeDB();
 		
 		txtinput=(EditText)findViewById(R.id.txt_autocomplete);
 		lstword=(ListView)findViewById(R.id.wordlist);
@@ -84,12 +80,12 @@ public class MainView extends Activity {
 						txtwatermark.setText("");
 						adapter=new ArrayAdapter<String>(getBaseContext(),android.R.layout.simple_dropdown_item_1line,tmplist);
 						lstword.setAdapter(adapter);
-						Toast.makeText(getApplicationContext(),tablename, Toast.LENGTH_SHORT).show();
+						
 					}else{
 						txtwatermark.setText("No Result");
 						adapter=new ArrayAdapter<String>(getBaseContext(),android.R.layout.simple_dropdown_item_1line,tmplist);
 						lstword.setAdapter(adapter);
-						Toast.makeText(getApplicationContext(),tablename, Toast.LENGTH_SHORT).show();
+						
 					}
 		}
 		
@@ -117,7 +113,7 @@ public class MainView extends Activity {
 		public void onItemClick(AdapterView<?> parent, View view,int position, long id) {
 			
 			String item = (String) lstword.getItemAtPosition(position);
-			Toast.makeText(getApplicationContext(),"You selected : " + item,Toast.LENGTH_SHORT).show();  
+			  
 			//Going To detail view
 			
 			Intent intent=new Intent(context, DetailView.class);			
@@ -178,6 +174,21 @@ public class MainView extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main_view,menu);
 		return true;
+	}
+	
+	@Override
+	public boolean onOptionsItemSelected (MenuItem item){
+		switch(item.getItemId())
+		{
+		case R.id.about:
+			Intent intent=new Intent(context, DevView.class);
+			startActivity(intent);
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);			
+		}
+		
+		
 	}
 
 }

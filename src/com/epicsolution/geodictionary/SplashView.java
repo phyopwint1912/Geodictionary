@@ -15,26 +15,23 @@ import android.widget.TextView;
 
 public class SplashView extends Activity {
 	final Context context=this;
-	private static int SPLASH_TIME_OUT=10000;
+	private static int SPLASH_TIME_OUT=5000;
 	
-		ImageView logo;
-		TextView txthang;
+		//ImageView logo;
+		
 		View splashview;
 	@Override
 	protected void onCreate(Bundle savedInstancestate){
 			super.onCreate(savedInstancestate);
 			setContentView(R.layout.activity_splash);
-			logo=(ImageView)findViewById(R.id.imglogo);
-			txthang=(TextView)findViewById(R.id.txthang);
-			
+			//logo=(ImageView)findViewById(R.id.imglogo);
 			
 			
 			
 			Animation rotateanimation=AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate);	
 			
-			logo.startAnimation(rotateanimation);
-			Animation hanganimation=AnimationUtils.loadAnimation(getApplicationContext(), R.anim.hanging);	
-			txthang.startAnimation(hanganimation);
+			//logo.startAnimation(rotateanimation);
+			
 			
 			
 			new Handler().postDelayed(new Runnable() {
