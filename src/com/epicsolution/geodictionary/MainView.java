@@ -184,6 +184,11 @@ public class MainView extends Activity {
 			Intent intent=new Intent(context, DevView.class);
 			startActivity(intent);
 			return true;
+		case R.id.help:
+			Intent helpintent=new Intent(context,HelpView.class);
+			startActivity(helpintent);
+			return true;
+			
 		default:
 			return super.onOptionsItemSelected(item);			
 		}

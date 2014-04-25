@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 public class SplashView extends Activity {
 	final Context context=this;
-	private static int SPLASH_TIME_OUT=5000;
+	private static int SPLASH_TIME_OUT=1000;
 	
 		//ImageView logo;
 		

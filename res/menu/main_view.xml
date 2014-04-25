@@ -4,22 +4,16 @@
     
 <item
         android:id="@+id/help"
-       
+       	android:icon="@drawable/infoicon"
         android:orderInCategory="1"
-        android:title="help"/>
-    <item
-       android:id="@+id/contact"
-        android:icon="@drawable/phone"
-        android:orderInCategory="2"
-        android:title="Contact"
-        android:alphabeticShortcut="S"
-        />
+        android:title=""/>
+   
 	<item
         android:id="@+id/about"
         android:icon="@drawable/people"
         
         android:orderInCategory="3"
-        android:title="About"/>
+        android:title=""/>
 	
 	
 </menu>

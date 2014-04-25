@@ -18,6 +18,7 @@ public class DevView extends Activity {
 		Button btngitButton;
 		ImageView imgandroid;
 		Button btnfblike;
+		Button btnepic;
 		
 	protected void onCreate(Bundle savedInstanceState) {
 		
@@ -33,13 +34,15 @@ public class DevView extends Activity {
 		btngitButton=(Button)findViewById(R.id.btngit);
 		imgandroid=(ImageView)findViewById(R.id.imgandroid);
 		btnfblike=(Button)findViewById(R.id.btnfblike);
+		btnepic=(Button)findViewById(R.id.btnepic);
 		
 		controller(btngitButton);
 		controller(btnfblike);
+		controller(btnepic);
 		
 		btngitButton.startAnimation(rotator);
 		btnfblike.startAnimation(rotator);
-
+		btnepic.startAnimation(rotator);
 			
 		
 		
@@ -76,9 +79,17 @@ public class DevView extends Activity {
 					case R.id.btnfblike:{
 						Toast.makeText(getApplicationContext(), "go to fb", Toast.LENGTH_SHORT).show();
 						
-						Intent browse = new Intent( Intent.ACTION_VIEW , Uri.parse("https://m.facebook.epicmyanmar") );
+						Intent browse = new Intent( Intent.ACTION_VIEW , Uri.parse("https://m.facebook.com/epicmyanmar") );
 
 					    startActivity( browse );
+					};break;
+					case R.id.btnepic:{
+						Toast.makeText(getApplicationContext(), "go to fb", Toast.LENGTH_SHORT).show();
+						
+						Intent browse = new Intent( Intent.ACTION_VIEW , Uri.parse("http://www.epicmyanmar.com") );
+
+					    startActivity( browse );
+						
 					};break;
 					
 					

@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:id="@+id/frmsplash"
-    android:background="#FFFFFF"
+    android:background="#FF0A27"
      >
 
     <TextView
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="\tCOLLINS\nDictionary"
+        android:text="\n\n\tGeological\n\n\tDictionary"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#FFFFFF"
         android:textSize="50dp" />
@@ -45,18 +45,18 @@
         android:layout_height="2dp"
         android:layout_alignParentLeft="true"
         android:layout_below="@+id/Title"
-        android:clickable="false" />
+        android:clickable="false"
+        android:visibility="invisible" />
 
     <TextView
         android:id="@+id/txtDictionary"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/breakline"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        android:text="Geology"
-        android:textColor="#F11111"
-        android:textSize="50dp"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_marginBottom="27dp"
+        android:text="EPIC Solutions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF" />
 
 </RelativeLayout>
