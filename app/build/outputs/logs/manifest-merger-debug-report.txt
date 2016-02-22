@@ -1,0 +1,81 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:2:1-45:12
+	package
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:11:5-43:19
+	android:label
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:15:9-62
+activity#com.epicsolution.geodictionary.SplashView
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:16:9-26:20
+	android:label
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:18:13-45
+	android:theme
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:19:13-77
+	android:name
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:17:13-69
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.epicsolution.geodictionary.DetailView
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:27:9-30:25
+	android:label
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:28:16-48
+	android:theme
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:29:16-80
+	android:name
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:27:19-75
+activity#com.epicsolution.geodictionary.MainView
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:32:9-36:20
+	android:label
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:33:16-48
+	android:name
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:32:19-73
+activity#com.epicsolution.geodictionary.DevView
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:37:9-40:20
+	android:label
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:38:13-45
+	android:name
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:37:19-72
+activity#com.epicsolution.geodictionary.HelpView
+ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:41:9-42:58
+	android:label
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:42:14-46
+	android:name
+		ADDED from /Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/AndroidManifest.xml:41:19-73

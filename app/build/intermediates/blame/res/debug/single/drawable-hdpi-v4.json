@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/infoicon.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/infoicon.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/giticon.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/giticon.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/avatar.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/avatar.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/round_corner.xml",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/round_corner.xml"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/fbicon.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/fbicon.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/logo.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/complogo.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/complogo.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_person.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/ic_action_person.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/people.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/people.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/android.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/android.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/phone.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/phone.png"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/email.png",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/drawable-hdpi/email.png"
+    }
+]

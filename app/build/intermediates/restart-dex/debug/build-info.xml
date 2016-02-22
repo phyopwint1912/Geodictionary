@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86,armeabi-v7a"
+    api-level="16"
+    density="xhdpi"
+    format="5"
+    timestamp="86865413719157"
+    verifier="JAVA_RESOURCES_CHANGED" >
+
+    <task
+        name="javac"
+        duration="358" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="256" />
+    <task
+        name="verifier"
+        duration="27" />
+
+    <artifact
+        location="/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="86865413719157"
+        verifier="JAVA_RESOURCES_CHANGED" >
+        <artifact
+            location="/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

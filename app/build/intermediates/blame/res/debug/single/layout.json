@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/layout/activity_help.xml",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/layout/activity_help.xml"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/layout/activity_main_view.xml",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/layout/activity_main_view.xml"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/layout/activity_devportfolio.xml",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/layout/activity_devportfolio.xml"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/layout/avtivity_detail_view.xml",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/layout/avtivity_detail_view.xml"
+    }
+]

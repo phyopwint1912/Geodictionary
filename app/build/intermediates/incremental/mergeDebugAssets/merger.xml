@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/assets"><file name="dict.db" path="/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/assets/dict.db"/></source></dataSet><dataSet config="debug"><source path="/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/debug/assets"/></dataSet></merger>

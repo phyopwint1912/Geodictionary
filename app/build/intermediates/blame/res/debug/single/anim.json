@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/anim/linear_interpolator.xml",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/anim/linear_interpolator.xml"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/anim/rotate.xml",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/anim/rotate.xml"
+    },
+    {
+        "merged": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/build/intermediates/res/merged/debug/anim/hanging.xml",
+        "source": "/Users/winhtaikaung/Documents/AndroidPlayGround/Geodictionary/app/src/main/res/anim/hanging.xml"
+    }
+]
